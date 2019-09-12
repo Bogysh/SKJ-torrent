@@ -1,0 +1,4 @@
+
+javac files/*.java
+
+pause

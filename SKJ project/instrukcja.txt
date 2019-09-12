@@ -1,0 +1,19 @@
+Wypakowac folder na pulpit
+Folder TORrent_1 i TORrent_2 skopiowac na dysk C.
+Uruchomiæ skrypt. (testowane na komputerach z WINDOWS10 )
+
+Po prawidlowym wykonaniu skryptu w TORrent_1 powinien pojawic sie plik  imieniem
+natomiast w TORrent_2 nazwa miasta. A na ekranie konsoli klienta 1 i 2 
+na koncu pojawi sie napis END.
+
+W niektorych przypadkach plik nie uruchamia sie prawidlowo. W takim przypadku
+nalezy uruchomic skrypt ponownie. ( nie wiem czemu tak sie dzieje. W intellij 
+)zawsze dziala poprawnie
+
+UWAGA.
+Nale¿y tak¿e sprawdzic czy w TORrent_1 w ktorym znajduja sie pliki z nazwami
+miast nie ma ¿adnego pliku z TORrent_2 w ktorym znajduja sie imiona. I na odwrot.
+Po wykonanym poprawnym uruchomieniu nalzey tak¿e sprawdzic i usunac te pliki jeœli
+bêdzie potrzeba ponownego uruchomienia skryptu.Dzieje sie tak poniewa¿ w pliku
+zostala uzyta hashmapa i nie moga sie powtorzyc te same pliki jako klucze
+
